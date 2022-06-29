@@ -5,7 +5,7 @@ author_name:        "Ryan" # change this to your name
 logo_url:           https://avatars.githubusercontent.com/u/105316296?s=400&u=d9f631e3436c5d8bb6340e993d08a9a150a12ed0&v=4
 # Site Settings
 url:                https://ryanmhopkins.com # main url
-baseurl:            /the-plain
+baseurl:            /
 permalink:          /:title # Post permalink
 timezone:           America/LosAngeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
@@ -24,6 +24,9 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-sitemap
+  - remote-theme
+
+remote-theme: heiswayi.github.io/the-plain/
 
 
 
