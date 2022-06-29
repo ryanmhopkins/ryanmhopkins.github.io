@@ -1,14 +1,13 @@
 # Site Info
-title:              "The Plain"
-description:        "A minimalist Jekyll theme"
-author_name:        "Heiswayi Nrird" # change this to your name
-logo_url:           https://avatars0.githubusercontent.com/u/13794983?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
-
+title:              "Ryan"
+description:        "Investor | Plan-Based | Ultrarunner"
+author_name:        "Ryan" # change this to your name
+logo_url:           https://avatars.githubusercontent.com/u/105316296?s=400&u=d9f631e3436c5d8bb6340e993d08a9a150a12ed0&v=4
 # Site Settings
-url:                https://heiswayi.github.io # main url
+url:                https://ryanmhopkins.com # main url
 baseurl:            /the-plain
 permalink:          /:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/LosAngeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 social_share_previews: true
 
