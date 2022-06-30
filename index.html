@@ -1,31 +1,110 @@
----
-layout: default
----
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Tan Jia Ming - Full-stack web developer using Vue + NodeJS/PHP + MySQL. Find Tan Jia Ming's work on GitHub and CodePen.">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Tan Jia Ming's Den</title>
+    </head>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Person",
+      "name": "Tan Jia Ming",
+      "jobTitle": "Backend Developer",
+      "company": "Ouch Free Sdn Bhd",
+      "codeRepository": ["https://github.com/jiaming10", "https://codepen.io/jiaming10"]
+    }
+    </script>
+    <body>
+        <h1>Tan Jia Ming</h1>
+        <p>tanjiaming10 hotmail.com</p>
 
-<section>
+        <nav>
+            <ul>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
 
-	{% for post in site.posts %}
-		{% unless post.next %}
-			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
-		{% else %}
-			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-			{% if year != nyear %}
-				<h3 class="code">{{ post.date | date: '%Y' }}</h3>
-			{% endif %}
-		{% endunless %}
+        <section id="experience">
+            <h2>Experience</h2>
 
-		<ul>
-			<li>
-				<div class="post-date code">
-					<span>{{ post.date | date: "%b %d" }}</span>
-				</div>
-				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-				</div>
-			</li>
-		</ul>
+            <h3>VOXz Software Solution Sdn Bhd</h3>
+            <p>October 2012 to December 2012</p>
+            <p>Software Developer (Internship)</p>
 
-	{% endfor %}
+            <h3>Visual Solutions (M) Sdn Bhd</h3>
+            <p>August 2013 to January 2016</p>
+            <p>Junior Software Developer</p>
 
-</section>
+            <h3>Compass Interactive Sdn Bhd</h3>
+            <p>February 2016 - May 2017</p>
+            <p>Web Developer</p>
+
+            <p>May 2017 - November 2018</p>
+            <p>Senior Web Developer</p>
+
+            <p>November 2018 - June 2019</p>
+            <p>Junior Backend Lead</p>
+
+            <h3>FLEXIROAM Sdn Bhd</h3>
+            <p>September 2019 to July 2020</p>
+            <p>Senior Backend Developer</p>
+
+            <h3>Ouch Free Sdn Bhd</h3>
+            <p>July 2019 to present</p>
+            <p>Backend Developer</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <h3>Frontend</h3>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>Javascript</li>
+                    <li>Frontend libraries (VueJS, jQuery)</li>
+                    <li>CSS Preprocessors (Less, SASS)</li>
+                    <li>CSS Frameworks (Bootstrap, Tachyons, Tailwind)</li>
+                </ul>
+            <h3>Backend</h3>
+                <ul>
+                    <li>PHP</li>
+                    <li>NodeJS</li>
+                    <li>Python</li>
+                    <li>Web servers (Apache/NGINX)</li>
+                    <li>Basic networking</li>
+                    <li>Server setup and management (Ubuntu, CentOS, Debian)</li>
+                </ul>
+            <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MSSQL</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            <h3>Development Tools</h3>
+                <ul>
+                    <li>git</li>
+                    <li>AWS, GCP</li>
+                    <li>Docker</li>
+                    <li>CI/CD (GitLab CI, AWS CodePipeline, Google Cloud Build)</li>
+                </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <h3>Universiti Tunku Abdul Rahman (UTAR)</h3>
+            <p>May 2013</p>
+            <p>Bachelor's Degree in Computer Science/Information Technology</p>
+        </section>
+
+        Find me on: <a href="https://github.com/jiaming10">GitHub</a>
+        <a href="https://codepen.io/jiaming10/">CodePen</a>
+
+    </body>
+</html>
