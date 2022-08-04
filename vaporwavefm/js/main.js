@@ -1,7 +1,5 @@
 let canvas, c, w, h, u, points, offset, spacing, gradient
 
-
-t.appendChild(y);
 function init() {
   canvas = document.createElement('canvas')
   canvas.width = w = innerWidth
@@ -79,4 +77,5 @@ function show() {
     } 
   }
 }
+
 init()
