@@ -7,12 +7,14 @@
 <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
-
-<audio autoplay loop>
-  <source src="/emotion983.mp3" type="audio/mpeg" />
-</audio>
-<div id="volume" class="control" title="Toggle the music"></div>
-
+<div id="container">
+    <h1 id="logo">v a p o r w a v e . f m</h1>
+    <canvas id="canvas" width="0" height="0"></canvas>
+  </div>
+  <audio id="music" src="emotion983.mp3" autoplay loop></audio>
+  <div id="controls">
+    <div id="volume" class="control" title="Toggle the music"></div>
+  </div>
 <script src="js/main.js"></script>
 
 </body>
