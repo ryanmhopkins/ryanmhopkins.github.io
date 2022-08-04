@@ -1,5 +1,8 @@
 let canvas, c, w, h, u, points, offset, spacing, gradient
+var t = document.getElementById("p").textContent;
+var y = document.createTextNode("This just got added");
 
+t.appendChild(y);
 function init() {
   canvas = document.createElement('canvas')
   canvas.width = w = innerWidth
