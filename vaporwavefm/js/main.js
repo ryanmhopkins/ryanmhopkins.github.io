@@ -79,4 +79,7 @@ function show() {
     } 
   }
 }
+var paragraph = document.getElementById("p");
+
+paragraph.textContent += "This just got added";
 init()
