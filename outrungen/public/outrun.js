@@ -63,7 +63,7 @@ var controls = new function() {
     this.frequency = 0.5;
 };
 
-var general = gui.addFolder('Outrun | Mohit Hingorani');
+var general = gui.addFolder('Outrun | Ryan Hopkins');
 general.add(controls, 'takeImage').name('Take Screenshot');
 general.addColor(controls, 'backgroundColor').name('Background Color');
 general.open();
