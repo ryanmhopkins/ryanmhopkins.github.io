@@ -1,0 +1,19 @@
+{
+  "name": "threeDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "eslint": "^7.1.0",
+    "three": "^0.117.0",
+    "three-orbit-controls": "^82.1.0",
+    "three-orbitcontrols": "^2.110.3"
+  }
+}
