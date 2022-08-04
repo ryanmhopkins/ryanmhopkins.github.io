@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": [
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+      "require-jsdoc": "off",
+      "space-in-parens":"error",
+      "max-len": "off",
+      "no-unused-vars": "warn"
+    },
+    "ignorePatterns": "lib/*"
+}
