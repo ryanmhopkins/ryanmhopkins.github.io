@@ -3,9 +3,7 @@ layout: default
 ---
 
 <div class="lead pretty-links">
-  Hi! this is just a sample **intro text**. You would normally put your [full name](about/) here and say something *smart* about yourself.
+  👋 Hi, I’m Ryan — a business analyst and full stack developer (currently available for projects) with a passion for solving complex problems through data, code, and creativity. By day, I dive deep into analytics and build end-to-end solutions that bridge business needs with technical execution. By night, you’ll find me tinkering with AI projects, exploring the possibilities of machine intelligence.
 
-  This could also be the good place to say were you are coming from, what you [do for a living](work/) and maybe what you are [interested in](projects/). You might also be [writing](articles/) about stuff.
-
-  But after all this is your site and I'm just a **placeholder text** so what would i know about some *home page content*.
+Outside of tech, I’m an ultrarunner and fitness junkie who thrives on endurance, discipline, and pushing limits — both on the trails and in my work.
 </div>
